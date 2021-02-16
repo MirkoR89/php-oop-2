@@ -1,7 +1,7 @@
 <?php
-  include __DIR__ . '\db\user_databese.php';
+  include __DIR__ . '/db/user_databese.php';
 
-  var_dump($user_list);
+  //var_dump($user_list);
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +13,13 @@
     <title>OOP 2</title>
 </head>
 <body>
+    <h1>The blog - User datas</h1>
     
+    <?php foreach ($user_list as $key => $user){ ?>
+     <h2>Name: <?php echo $user->name ?></h2>
+     <h2>Lastname: <?php echo $user->lastname ?></h2>
+     <hr>
+    <?php } ?>
 </body>
 </html>
+
