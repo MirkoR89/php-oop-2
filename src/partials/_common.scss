@@ -1,0 +1,34 @@
+// Utility classes
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.date {
+    margin-left: 25px;
+}
+
+// Flexbox
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
